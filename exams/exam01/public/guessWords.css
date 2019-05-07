@@ -1,0 +1,86 @@
+body
+{
+    background-color:#3D9970;
+}
+
+.guessImage {
+	display: block;
+	height: 120px;
+	width: 600px;
+	margin-left: 400px;
+}
+
+ul.wordslist{
+	margin-left: 200px;
+	height: 200px;
+	width: 200px;
+    padding: 50px;
+    border: 2px solid #9EA5AA;
+    border-radius:15px;
+    box-shadow: 5px 5px 3px #888888;
+    background: #FFFFFF;
+    overflow: scroll;
+}
+
+div.words{
+	font-family:Arial,Helvetica,sans-serif;
+    font-size: medium;
+}
+
+ol.guessedList{
+	height: 200px;
+	width: 600px;
+    padding: 50px;
+    border: 2px solid #9EA5AA;
+    border-radius:15px;
+    box-shadow: 5px 5px 3px #888888;
+    background: #FFFFFF;
+    overflow: scroll;
+    text-align: center;
+
+}
+
+div.guess{
+	font-family:Arial,Helvetica,sans-serif;
+    font-size: medium;
+}
+div.display-panel{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.to-send{
+	margin-left: 550px;
+    font-size: 20px;
+    height: 40px;
+    width: 400px;
+    padding-right: 10px;
+    background:#E8EEF4;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
+.sendButton{
+	height: 40px;
+	width: 80px;
+	background-color: #2AD596;
+	color: white;
+	font-size: 20px;
+	border-style: outset;
+}
+div.reply{
+	height: 40px;
+	width: 80px;
+	background-color: #2AD596;
+	color: white;
+	font-size: 20px;
+	border-style: outset;
+	margin-left: 970px;
+}
+
+div.count{
+	margin-left: 550px;
+}
