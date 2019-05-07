@@ -1,0 +1,81 @@
+body
+{
+    background-color:#d0e4fe;
+}
+ul.users{
+    margin-left: 250px;
+}
+div.user {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size: large;
+    
+    color: green;
+    float: left;
+    
+    }
+ol.messages{
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 60px;
+    padding: 50px;
+    border: 2px solid #9EA5AA;
+    border-radius:50px;
+    box-shadow: 8px 8px 5px #888888;
+    background: #E8EEF4;
+}
+p.message-text{
+    margin-left: 100px;
+    margin-right: 50px;
+    font-family:Arial,Helvetica,sans-serif;
+    text-align: center;
+    border: 1.7px solid #7CA4C1;
+    border-radius:5px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    background: #C5D6EA;
+    
+    
+    
+} 
+img.avatar{
+    margin: 5px;
+    border: 1px solid #9A9FAD;
+    float: left;
+    width: 80px;
+}
+
+.sender-info{
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman","Microsoft YaHei", "微软雅黑",STXihei, "华文细黑",serif;
+    color: #123423;
+    
+    
+}
+div.message-info{
+    font-size: 15px;
+    font-family:"Times New Roman",Times,serif;
+    font-style:italic;
+    color: #718291;
+    
+    
+    
+}
+div.outgoing{
+    margin-left: 700px;
+}
+input.to-send{
+    
+    font-size: 20px;
+    height: 40px;
+    width: 400px;
+    padding-right: 10px;
+    outline:none;
+    background:#E8EEF4;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
+
+
